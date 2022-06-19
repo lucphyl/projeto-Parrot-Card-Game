@@ -30,7 +30,7 @@
     margin: 30px 20%;
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
+    
   }
   
   .cartas {
@@ -74,7 +74,7 @@
     align-items: center;
     justify-content:center;
     width: 200px;
-    background-color: #f0a202;
+    background-color: #A7E9AF;
     padding: 20px;
     border-radius: 5px;
     margin: 20px auto;
