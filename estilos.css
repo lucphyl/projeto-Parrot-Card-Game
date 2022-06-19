@@ -1,0 +1,76 @@
+body {
+    background-color: #EEF9BF;
+}
+
+.titulo {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.004em;
+    text-align: center;
+    color: #75B79E;
+}
+
+.jogo{
+    width: 890px;
+    margin-top: 30px;
+    margin-left:20%;
+    margin-right:22%;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartas{
+    width:115px;
+    height: 140px;
+    background-color: #A7E9AF;
+    border: 1px solid #99CEA8;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.cartas:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+  }
+  
+  .cartas.flip {
+    transform: rotateY(180deg);
+  }
+
+.verso,
+.front {
+    width: 100px;
+    height:100px;
+    margin: 23px 8px;
+    backface-visibility: hidden;
+    position:absolute;
+}
+.verso {
+    transform: rotateY(180deg);
+  }
+
+  @media (max-width: 614px) {
+
+    .titulo p {
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.004em;
+        text-align: center;
+
+    }
+
+    .jogo {
+        width: 260px;
+        margin: 30px 24%;
+        display: flex;
+        flex-wrap: wrap;
+        perspective: 1000px;
+      }
+  }
