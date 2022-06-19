@@ -14,6 +14,9 @@
     align-items: center;
     justify-content: center;
 }
+.titulo a {
+    text-decoration: none;
+}
 .titulo p {
     font-family: Roboto;
     font-size: 56px;
